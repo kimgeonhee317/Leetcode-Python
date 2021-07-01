@@ -9,7 +9,7 @@ class Solution:
                 target.append(slice)
         return target
 
-    # step 1 : make all parenthesis case using number
+    # step 1 : make all parenthesis case using Recursion
     def addParentheses(sliceGroup, str: str, left, right):
         if (left == 0 and right == 0):
             sliceGroup.append(str)

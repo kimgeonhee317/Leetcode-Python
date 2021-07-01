@@ -12,9 +12,7 @@ class Solution:
                 temp_area = Solution.getArea(height[left], height[right], right-left)
                 if(temp_area >= area) : # find big one
                 area = temp_area
-            
-     
-
+        
         return area
     
     def getArea(left: int, right: int, width: int) -> int:
